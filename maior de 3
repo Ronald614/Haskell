@@ -1,0 +1,6 @@
+maior_de_2 :: Int -> Int -> Int
+maior_de_2 x y 
+  |x >= y = x
+  |otherwise = y
+maior_de_3 :: Int -> Int -> Int -> Int
+maior_de_3 x y z = maior_de_2 (maior_de_2 x y) z 
